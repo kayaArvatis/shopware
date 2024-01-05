@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Shopware 5
  * Copyright (c) shopware AG
@@ -50,6 +51,7 @@ class RequirementValidator
      * @param string $shopwareVersion current shopware version
      *
      * @throws Exception
+     * @return void
      */
     public function validate($pluginXmlFile, $shopwareVersion)
     {

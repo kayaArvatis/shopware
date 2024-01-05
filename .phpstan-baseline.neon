@@ -18381,21 +18381,6 @@ parameters:
 			path: engine/Shopware/Components/Plugin/ResourceSubscriber.php
 
 		-
-			message: "#^Method Shopware\\\\Components\\\\Plugin\\\\XmlReader\\\\StoreValueParser\\\\StoreExtjsValueParser\\:\\:parse\\(\\) return type has no value type specified in iterable type array\\.$#"
-			count: 1
-			path: engine/Shopware/Components/Plugin/XmlReader/StoreValueParser/StoreExtjsValueParser.php
-
-		-
-			message: "#^Method Shopware\\\\Components\\\\Plugin\\\\XmlReader\\\\StoreValueParser\\\\StoreValueParserInterface\\:\\:parse\\(\\) return type has no value type specified in iterable type array\\.$#"
-			count: 1
-			path: engine/Shopware/Components/Plugin/XmlReader/StoreValueParser/StoreValueParserInterface.php
-
-		-
-			message: "#^Method Shopware\\\\Components\\\\Plugin\\\\XmlReader\\\\StoreValueParser\\\\StoreXmlValueParser\\:\\:parse\\(\\) return type has no value type specified in iterable type array\\.$#"
-			count: 1
-			path: engine/Shopware/Components/Plugin/XmlReader/StoreValueParser/StoreXmlValueParser.php
-
-		-
 			message: "#^Method Shopware\\\\Components\\\\Privacy\\\\CookieRemoveSubscriber\\:\\:convertToArray\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: engine/Shopware/Components/Privacy/CookieRemoveSubscriber.php

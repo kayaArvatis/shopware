@@ -110,6 +110,10 @@ class XmlPluginReaderTest extends TestCase
         $this->readFile('plugin_invalid');
     }
 
+    /**
+     * @param string $fileName
+     * @return array<string, mixed>
+     */
     private function readFile(string $fileName = 'plugin'): array
     {
         return $this->pluginReader->read(
